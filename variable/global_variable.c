@@ -1,14 +1,16 @@
 #include <stdio.h>
 
     int playerScore = 5 ;
-    int matchScore = 15 ;
+    
 
 int main()
 {
     
-    
+    printf("inside the main function playerScore = %d\n", playerScore);
+    display ();
+}
 
-    printf("%d", playerScore + matchScore);
-
-    return 0;
+void display ()
+{
+    printf("inside the display function playerScore = %d", playerScore);
 }
