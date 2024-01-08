@@ -1,4 +1,4 @@
-
+// input A output 65
 
 #include <stdio.h>
 
@@ -14,9 +14,7 @@ int main()
     printf("Enter Character: ");
     scanf(" %c", &name);
 
-    printf("Interger Number: %d\n", num);
-    printf("Float Number: %f\n", num2);
-    printf("Double Number: %lf\n", num3);
+
     printf("Character: %d\n", name);
 
     return 0;
